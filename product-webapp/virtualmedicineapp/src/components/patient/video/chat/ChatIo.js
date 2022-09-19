@@ -4,7 +4,7 @@ import Chat from './Chat';
 import './Chat.css'
 
 const socket = io.connect('http://localhost:3030')
-const host = 'https://virtualmedicine.stackroute.io';
+const host = 'https://54.218.92.104';
 
 export default function ChatIo(props) {
   const [chatRoom, setChatRoom] = useState([]);

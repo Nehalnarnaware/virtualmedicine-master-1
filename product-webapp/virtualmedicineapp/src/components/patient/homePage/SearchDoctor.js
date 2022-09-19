@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Button, Form } from 'react-bootstrap'
 import './SearchDoctor.css'
 
-const host = 'https://virtualmedicine.stackroute.io';
+const host = 'https://54.218.92.104';
 
 export default function SearchDoctor(props) {
 
@@ -60,7 +60,7 @@ export default function SearchDoctor(props) {
       //     for(let i =0; i<byLocation.length;i++){
       //       selectedLocation = byLocation[i].nextElementSibling.innerText.toLowerCase();
       //       if(i === 0 ){
-      //         updateUrl = `https://virtualmedicine.stackroute.io/api/v1/user/doctor/${selectedLocation}`
+      //         updateUrl = `https://54.218.92.104/api/v1/user/doctor/${selectedLocation}`
       //       }
       //       updateUrl += `&city=${selectedLocation}`;
       //     }

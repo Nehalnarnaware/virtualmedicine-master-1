@@ -4,7 +4,7 @@ import "../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./CreateSchedule.css";
 import Swal from "sweetalert2";
 
-const host = "https://virtualmedicine.stackroute.io";
+const host = "https://54.218.92.104";
 
 export default function CreateSchedule({ isModalOpen }) {
   const month =

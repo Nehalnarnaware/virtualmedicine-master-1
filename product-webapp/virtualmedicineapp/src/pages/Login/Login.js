@@ -4,7 +4,7 @@ import registerImg from "../../assets/register.jpg";
 import axios from "axios";
 import { useNavigate, Link } from "react-router-dom";
 
-const host = "https://virtualmedicine.stackroute.io";
+const host = "https://54.218.92.104";
 
 function Login(props) {
   const [formData, setformData] = useState({
